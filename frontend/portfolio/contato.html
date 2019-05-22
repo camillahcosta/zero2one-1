@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Contato</title>
+</head>
+<body>
+    <a href='index.html'>Voltar</a>
+
+    <h1>Meus dados de contato</h1>
+    <ol>
+        <li>Telefone: (47) 99732-9244</li>
+        <li>Email: pedronandi@gmail.com</li>
+    </ol>
+
+    <h2>Se preferir, entre em contato por email:</h2>
+
+    <form action="servidorTeste.php" method="POST">
+        <label for="nome">Nome</label>
+        <br>
+        <input type="text" name="Nome" id="nome" placeholder="Nome">
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="Email" id="email" placeholder="Email">
+        <br>
+        <label for="conteudo">Escreva seu email</label>
+        <br>
+        <textarea name="Conteudo" id="conteudo" cols="30" rows="10" placeholder="Escreva seu email"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>

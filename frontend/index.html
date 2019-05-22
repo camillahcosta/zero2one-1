@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Listagem de Produtos</title>
+    <link href="./estilo.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="titulo">Listagem de Produtos</h1>
+    
+    <div class='div-pai'>
+        <div class="div-img">
+            <img src="https://bit.ly/2MJ5Uqy" alt="Gato 1">
+        </div>
+        <div class="div-txt">
+            <p>Nome: Gato 1</p>
+            <p>Valor: De graça</p>        
+            <p>Descrição: Gato para adoção. Ele não é dócil.</p>
+        </div>
+    </div>
+    <div>
+        <div class="div-img">
+            <img src="https://bit.ly/2wby17d" alt="Cachorro 1">
+        </div>
+        <div class="div-txt">
+            <p>Nome: Cachorro 1</p>
+            <p>Valor: R$ 50,00</p>       
+            <p>Descrição: Cachorro a venda, mas barato.</p>
+        </div>
+    </div>
+    <div>
+        <div class="div-img"> 
+            <img src="https://bit.ly/2M2mmSV" alt="Dragão 1">
+        </div>
+        <div class="div-txt">
+            <p>Nome: Dragão 1</p>
+            <p>Valor: Não tem preço</p>        
+            <p>Descrição: Faz necessidades no tapetinho.</p>
+        </div>
+    </div>
+    
+    <br>
+
+    <h1>Adicionar Produto na Lista</h1>
+    
+    <form action="servidorTeste.php" method="POST">
+        <table>
+            <tr>
+                <td><label for="nome">Nome</label></td>
+                <td><input type="text" name="Nome" id="nome" placeholder="Nome"></td>
+            </tr>
+            <tr>
+                <td><label for="valor">Valor</label></td>
+                <td><input type="number" name="Valor" id="valor" placeholder="Valor"></td>
+            </tr>
+            <tr>
+                <td><label for="url">URL</label></td>
+                <td><input type="text" name="URL" id="url" placeholder="URL"></td>
+            </tr>
+            <tr>
+                <td><label for="desc">Descrição</label></td>
+                <td>
+                        <textarea name="Descricao" id="desc" cols="30" rows="10" placeholder="Descrição"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Adicionar</button>
+                    <button type="reset">Limpar</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+  
+    
+ </body>
+</html>
