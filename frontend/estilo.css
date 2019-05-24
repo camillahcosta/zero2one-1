@@ -9,7 +9,6 @@ body{
     color: rgb(122, 59, 36);
     text-align: center;
     font-family: 'Montaga', serif;
-    
 }
 
 h1{
@@ -23,7 +22,6 @@ img{
     position: absolute;
     z-index: 1;
     right: 2px;
-    
 }
 
 .div-pai{
@@ -40,11 +38,9 @@ img{
 .div-img{
     width: 20%;
     right: 0px;
-    
 }
 
 .div-txt{
     width: 80%;
     left: 0px;
-    
 }
